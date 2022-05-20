@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    <style>
+ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: green
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        #outer {
+            width: 100%;
+            text-align: right;
+            margin-top: 20px;
+            margin-right: 10px;
+        }
+
+        .inner {
+            display: inline-block;
+        }
+
+        /* Creat two Colums */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Create two equal columns that floats next to each other */
+
+        .row {
+            padding: 40px;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+            height: 1000px;
+    
+            /* Should be removed. Only for demonstration */
+        }
+
+        .column2 {
+            float: right;
+            width: 70%;
+            
+
+        }
+
+
+        /* Forms */
+       
+        * {
+            box-sizing: border-box;
+        }
+
+        .input{
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+            background-color: #aaa;
+        }
+
+
+        input[type=submit] {
+            background-color: #09cc13;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+            margin-right: 5px;
+        }
+
+
+        input[type=submit]:hover {
+            background-color: #ff0202;
+        }
+
+        .container {
+            border-radius: 5px;
+            background-color: #f3d9d9;
+            padding: 50px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Two Colum Creat And Form -->
+    <div class="row">
+        <div class="column">
+            <div class="container">
+                <form action="/action_page.php">
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="type name" class="input">
+                    <label for="fname">NIC NO</label>
+                    <input type="text" id="fname" name="firstname" placeholder="type NIC NO" class="input">
+                    <label for="fname">Gender</label>
+                    <br>
+                    <input type="radio">
+                    <lable for="female">male</lable>
+                    <input type="radio">
+                    <lable for="female">female</lable>
+                    <br>
+                    <br>
+                    <label for="fname">Subject</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="fname">Java</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="fname">html</label>
+<br>
+<br>
+                    
+
+                   
+<input type="submit" value="Save" text-align="left">
+<input type="submit" value="Reset" style="background-color: rgb(226, 6, 6);">
+</form>
+
+        
+
+
+
+
+
+    </body>
+</html>
