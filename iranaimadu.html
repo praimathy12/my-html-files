@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG6SI9fxO4Mg6XSPNqBhzWI1m1-soIjQXAjg&usqp=CAU">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(135deg,  #fcdd7f, #e4e3be, #c6bfa2, #e2e5b6);
+	animation: gradient 3s ease infinite;
+	background-size: 400% 400%;
+   
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+height: 700px;
+  background-image: url(https://mapio.net/images-p/121527178.jpg);
+  background-size: auto;
+  
+
+}
+.column2 {
+  float: right;
+  width: 70%;
+  padding: 10px;
+  background-color: none;
+  height: 700px;
+}
+.info{
+    padding: 10px;
+    font-size: 30px;
+}
+.w{
+    padding: 20px;
+    color: whitesmoke;
+    font-size: 25px;
+}
+.btn{
+	display: block;
+	width: 20%;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #295e1b, #66d338, #32beae);
+	background-size: 200%;
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+    text-align: center;
+	margin: 1rem 0;
+	cursor: pointer;
+	transition: .5s;
+    margin-top: -50px;
+    float: right;
+}
+.btn:hover{
+	background-position: right;}
+</style>
+</head>
+<body>
+
+
+<h1 style="text-align: center; font-size: 60px; color: rgb(4, 57, 103); "  ><b>Iranaimadu Tank</b>
+    <div class="search">
+        <input type="search" class="search-box" />
+        <span class="search-button">
+          <span class="search-icon"></span>
+        </span>
+      </div></h1>
+
+  <div class="column1" >
+<!-- picture of tank -->
+  </div>
+  <div class="column2" style="background-color: rgb(0, 0, 0);" >
+    <h2 style="text-align: center; font-size: 40px; color: whitesmoke;"> Here informations for you</h2>
+    <div class = "informations">
+        <form class="info" id="tank" style="font-size: 20px;">
+           
+                <ul>
+                    <li class="w">Tank name : Iranaimadu Tank</li>
+                    <br>
+                    <li class="w">Update date:</li>
+                    <br>
+                    <li class="w" >Water level:</li>
+                    <br>
+                    <li class="w">Water Distribution time:</li>
+                    <br>
+                    <li class="w">Water Distribution area:</li>
+                    <br>
+                    <li class="w">Duration:</li>
+                    
+                    <button class="btn"  style="background-color: rgb(63, 215, 36);"<a></a>href="https://en.wikipedia.org/wiki/Iranamadu" >Learn more</button>
+                </tr>
+         
+            <tbody id="table_body">
+
+            </tbody>
+           
+        </form>
+</div>
+
+   </div>
+  </div>
+ 
+</body>
+</html>
